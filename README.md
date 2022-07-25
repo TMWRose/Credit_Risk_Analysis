@@ -21,8 +21,9 @@ FastLending, a peer to peer lending service, wants to use machine learning to bu
 ![SMOTE Oversampling Results](https://user-images.githubusercontent.com/100237685/180667316-8397d90a-14a4-43b9-8c37-b9e2212d2acf.png)
 
 
-* djdfhjdfjhd
-* jffn
+* This model is very similar to the percision of the Naive Random Oversampling.
+* The accuracy score, however, is much worse at 49%.
+* I would not reccomend using this model as it has very low accuray score and percision.
 
 
 ## Undersampling
