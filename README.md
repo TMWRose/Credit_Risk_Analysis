@@ -52,8 +52,10 @@ FastLending, a peer to peer lending service, wants to use machine learning to bu
 ![Easy Ensemble AdaBoost Classifier](https://user-images.githubusercontent.com/100237685/180667497-f69ec732-f7e6-4f39-a66f-6dec6582c811.png)
 
 
-* fjfj
-* rjri
+* The AdaBoost Classifier is interesting because at first glance, it looks as though it would be a great model with a 99% accuracy score. 
+* Upon closer inspection however, we see that the accuracey is all towards finding low risk applicants; it did not accurtley predict a single high risk applicant.
+* In addition, even if it had found high risk applicants, a 99% accuracy score means that this model is overfit to the data. The data that is being used by FastLending isn't stagnent, so the model they chose has to be able to adjust with the changing data they feed it. 
+* As a result, I would not reccomend this model for finding high risk applicants. 
 
 
 ## Balanced Random Forest Classifier
