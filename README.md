@@ -66,8 +66,12 @@ FastLending, a peer to peer lending service, wants to use machine learning to bu
 ![Balanced Random Forest Classifier pt 3](https://user-images.githubusercontent.com/100237685/180667570-4acdfa50-02f5-4154-a13c-612d3f5e2de0.png)
 
 
-* hfhf
-* jfjf
+* An accuracy score of 66% doesn't seem great at first in comparision to the 71-73% we saw in previous models, but if we look closer at the data we'll see that this model actually predicts high risk applicants the best out of all of them. 
+* The precision score for finding high risk applicants is 0.68, the highest we've seen.
+* That being said, even though this model is good at finding high risk applicants, it finds very few of them. It could be that the scale weights need to be adjusted.
+* This model does provide other useful information though, such as the features of a candidates application that are the biggest influence on whether they're high risk or not. 
+* It appears that the top three influences are: total reccuring interest, last payment amount, and total payment invoiced. 
+* This model could be a helpful tool in finding high risk applicants, but I would not use it on its own. 
 
 # Summary
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
