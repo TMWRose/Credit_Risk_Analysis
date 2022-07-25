@@ -32,8 +32,8 @@ FastLending, a peer to peer lending service, wants to use machine learning to bu
 ![Undersampling Results](https://user-images.githubusercontent.com/100237685/180667409-79e0b3a9-3646-4a69-b10a-df19225d594e.png)
 
 
-* jfjf
-* jff
+* Again, this model is also similar to the percision of the Naive Random Oversampling. It is slighty worse at finding good candidiates yet slightly better at finding high risk candidates.
+* The accuracy score is 72%, which is only 1% higher than Naive Random Oversampling. As such, it's still not a good model for finding high risk applicants. 
 
 
 ## Combination Over and Under Sampling
