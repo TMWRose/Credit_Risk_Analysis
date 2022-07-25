@@ -74,4 +74,7 @@ FastLending, a peer to peer lending service, wants to use machine learning to bu
 * This model could be a helpful tool in finding high risk applicants, but I would not use it on its own. 
 
 # Summary
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+All of these models have their vices and virtues, but truthfully, I would not use any of them on their own to uncover high risk applicants. Most of them are skewed towards accuratly finding low risk applicants, which can be good, but there are a number of high risk applicants that slip through the cracks. 
+
+
+The Balanced Random Forest Classifier comes the closest to being a good model, but it's still heavily favoring low risk applicants. If the scaling was done differently than perhaps it would be better. However, it does provide interesting insight into what influnces a candiates potential to be high or low risk. That information could prove to be useful to FastLending. It might be beneficial to combine the Balanced Random Forest Classifier with another model type to provide the results the company is looking for. 
