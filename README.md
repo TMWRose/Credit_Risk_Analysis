@@ -42,8 +42,8 @@ FastLending, a peer to peer lending service, wants to use machine learning to bu
 ![Combination Over and Under Sampling](https://user-images.githubusercontent.com/100237685/180667460-1d7983b0-5895-4207-8e8f-b79f23347786.png)
 
 
-* fhefhe
-*ffjf
+* This model is marginaly better than the previous ones as it has a 73% accuracy score and 0.02 for percision of finding high risk appplicants vs the 0.01 we've been seeing. 
+* Regardless, I still wouldn't reccomend using the model as it still wouldn't be good for finding high risk applicants. 
 
 
 ## Easy Ensemble AdaBoost Classifier
